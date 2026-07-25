@@ -1,0 +1,36 @@
+{
+  "status": "active",
+  "message": "Rules loaded for Ibans",
+  "mode": "warn",
+
+  "enforce_risk": true,
+  "max_risk_percent": 1.0,
+  "require_stop_loss": true,
+  "sl_grace_seconds": 30,
+  "enforce_min_rr": false,
+  "min_rr": 2.0,
+  "ref_sl_points": 200,
+
+  "day_anchor": "balance",
+  "use_daily_loss": true,
+  "daily_loss_percent": 3.0,
+  "use_daily_target": false,
+  "daily_target_percent": 3.0,
+  "max_trades_per_day": 3,
+  "max_open_positions": 2,
+
+  "use_max_dd": true,
+  "max_dd_percent": 6.0,
+
+  "max_consec_losses": 2,
+  "cooldown_minutes": 30,
+
+  "use_sessions": true,
+  "session1": "13:00-16:00",
+  "session2": "",
+  "session3": "",
+  "block_monday": false,
+  "block_friday": false,
+
+  "allowed_symbols": ""
+}
